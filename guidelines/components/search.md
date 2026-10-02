@@ -14,4 +14,4 @@ Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=78
 - **Sizes:** `sm` (28px), `md` (32px), and `lg` (40px).
 - **States:** default, hover, focused, and active. Active means the input has text.
 
-More menu rules: [Filtering menus](../general-rules/filtering-menus.md).
+More menu rules: [Filtering menus](../compositions/table.md#filtering-menus).

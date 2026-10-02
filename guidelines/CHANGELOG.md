@@ -2,9 +2,16 @@
 
 One line per change. Newest first.
 
-## v1.0 (draft)
+## v0.5 (draft)
 
-- Table: Order ID truncation, other text columns and badges, column sizing, container and scroll behavior.
+- Foundation: corner radius. The 8-step scale, round/square modes, and which components actually use which step.
+- Badge: variants (strong, subtle, outlined, ghost), hierarchy by visual weight, colors, sizes.
+- Foundation: spacing. 4px base grid, Tailwind alignment, token rules, the x0-x32 scale.
+- Foundation: icons. Source library (IBM Carbon, community), category list, status workflow, why one size per icon (Carbon v11).
+- Foundation: typography. Font families, weights, and the 15 text styles.
+- Foundation: accessibility and color contrast (WCAG 2.2 AA, rules A11Y-01 to A11Y-26, exception EX-01).
+- Foundation: colors. Brand and support colors, no values.
+- Table: moved to `compositions/` as one file. Order ID truncation, other text columns and badges, column sizing, container and scroll behavior, filtering menus.
 - Filtering menus: search input when a menu has more than 5 options.
 - Button: variants, hierarchy rules, sizes, states, labels and icons.
 - Button group: order, variants, sizes.

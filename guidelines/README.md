@@ -4,16 +4,10 @@ Rules for the Manager Dashboard UI. One file per rule set or component.
 
 ## Folders
 
-- `foundation/` has the basics: colors, typography, spacing, icons. Empty for now.
-- `general-rules/` has rules that apply across components, like truncation.
+- `foundation/` has the basics: colors, typography, spacing, icons, corner radius. All written, plus accessibility.
+- `general-rules/` has rules that apply across components. Empty for now.
 - `components/` has one file per component.
-
-## How to update
-
-1. Edit the file.
-2. Commit with a clear message, like `Dialog: added closing rules`. That message is the history.
-3. Add one line to `CHANGELOG.md`.
-4. When you hand something to devs, tag a release: `git tag v1.0` and push the tag.
+- `compositions/` has rules for how components work together, like the [table](compositions/table.md).
 
 ## Naming
 
@@ -32,4 +26,9 @@ Figma file: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components
 - Table: hug column width is set by the widest of header or content. Undecided if content alone should set it, with the header wrapping.
 - Search: which size to use inside menus is not decided.
 - Dialog and drawer: drawer rules are not written yet.
-- Foundation: not written yet.
+- Radius: no component is bound to a radius variable, so the scale can't actually be changed from one place yet. See `foundation/radius.md`.
+- Badge: no rule for which color means what. `strong`/teal and `strong`/purple look like they fail contrast with white text. See `components/badge.md`.
+- Spacing: no page/layout spacing scale. Table density is documented in `compositions/table.md`, not here. See `foundation/spacing.md`.
+- Icons: small UI icon source is not identified, no icon-to-name mapping, no size scale, no color/stroke rule. See `foundation/icons.md`.
+- Typography: `body/xxs` (11px) breaks the 12px minimum, no usage rules per style, no mono style. See `foundation/typography.md`.
+- Colors: no semantic tokens, no status colors, and variable scopes are not set. See `foundation/colors.md`.
