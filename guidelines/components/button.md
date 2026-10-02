@@ -2,8 +2,6 @@
 
 Buttons have five variants, three sizes, and four states. Orange is for level 0 actions only, and dark blue covers most other primary actions.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=11-869
-
 ## Variants
 
 | Variant | Color | Use for |

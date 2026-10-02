@@ -1,7 +1,5 @@
 # Badge
 
-Figma file: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components (page `badge`)
-
 A badge is a small label that marks a status or calls out something about a row or item. It's not clickable.
 
 ## Kinds

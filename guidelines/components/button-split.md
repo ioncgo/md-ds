@@ -2,8 +2,6 @@
 
 The button split is one button with two parts. The label runs the main action, and the chevron next to it opens a menu of related actions.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=103-10891
-
 ## Usage
 
 - **Main part:** runs the most common action in one click.

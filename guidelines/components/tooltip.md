@@ -2,8 +2,6 @@
 
 A tooltip is a small dark label with white text that appears next to an element. It gives a bit of extra info without taking up space on the screen.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=15-2924
-
 ## Usage
 
 - **Truncated text:** shows the full value of text that is cut off, like a long name in a table cell or a shortened Order ID.

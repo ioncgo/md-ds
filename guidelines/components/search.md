@@ -2,8 +2,6 @@
 
 The search input is a text field with a search icon on the left. Once the user types, a clear (x) button shows on the right. It helps people find an option fast in a long list.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=78-3016
-
 ## Usage
 
 - **Where:** inside overflow menus, and inside filter menus.

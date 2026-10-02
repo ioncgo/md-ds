@@ -1,7 +1,5 @@
 # Corner radius
 
-Figma file: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components (collection `radius`).
-
 ## Scale
 
 8 steps, with two modes: `round` (the default) and `square`.

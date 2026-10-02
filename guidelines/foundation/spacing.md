@@ -1,7 +1,5 @@
 # Spacing
 
-Figma file: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components (collection `spacing`).
-
 The Manager Dashboard design system uses a 4px base grid. Structural spacing is always a multiple of 4px, with one documented exception: three half-steps (`x0-5`, `x1-5`, `x2-5`) for micro-spacing. No other exceptions.
 
 Tokens match Tailwind CSS's spacing scale, both in the numbers (`x1` = 4px, `x4` = 16px, same as Tailwind's `1` and `4`) and in the half-step naming (`x0-5`, `x1-5`, `x2-5`, same pattern as Tailwind's `0.5`, `1.5`, `2.5`). Tailwind works the same way: a half-step scale layered under a 4px grid, not a pure 4px grid.

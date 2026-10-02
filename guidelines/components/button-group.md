@@ -2,8 +2,6 @@
 
 The button group is a ready-made set of buttons that sit together, usually in the footer of a modal or drawer. It holds a secondary button, a main action, and a tertiary "…" button for extra actions.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=245-8985
-
 ## Why it's a component
 
 - Same order and spacing in every modal and drawer, so no screen ends up a little different.

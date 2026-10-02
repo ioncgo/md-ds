@@ -2,8 +2,6 @@
 
 A dialog is a small window that opens on top of the page and asks the user to decide something before going on. The page behind it is dimmed until the user answers.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=71-2527
-
 ## Usage in our case
 
 - **Confirming order actions:** cancel order and delete order. Both can't be undone easily, so we ask first.

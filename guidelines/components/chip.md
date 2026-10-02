@@ -2,8 +2,6 @@
 
 A chip is a small label with an icon and text. Once selected, it shows an x to remove it. In the dashboard, chips show the filters applied to a table.
 
-Figma: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components?node-id=225-12800
-
 ## Usage
 
 - **Applied filters:** each active filter shows as a selected chip above the table. The x removes that filter.

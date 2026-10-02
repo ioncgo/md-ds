@@ -13,8 +13,6 @@ Rules for the Manager Dashboard UI. One file per rule set or component.
 
 Use the same names as the Figma file. If a name in Figma is wrong, fix it in Figma first, then here.
 
-Figma file: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components
-
 ## Open items
 
 - Button: size `lg` has no use assigned yet.

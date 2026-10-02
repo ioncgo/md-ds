@@ -1,10 +1,5 @@
 # Typography
 
-Figma files:
-
-- Base variables: https://www.figma.com/design/qsvaDkP7lsiYk4KYtLxMlW/Foundation (collection `typography`)
-- Text styles and their variables: https://www.figma.com/design/5nGbl24ZhF2RKmXg5dgtaN/Components (page `typography`)
-
 The font is Inter. Hierarchy comes from size and weight.
 
 ## Font families

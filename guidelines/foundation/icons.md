@@ -1,7 +1,5 @@
 # Icons
 
-Figma file: https://www.figma.com/design/4sJ4t3aVg4TMoia09zci0s/IBM%C2%AE-UI-Icon-Library--Community-
-
 This is the IBM Carbon icon library (a community file, not ours). We use it for large icon variants and for enterprise-specific icons
 
 ## What's in the file

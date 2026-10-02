@@ -1,7 +1,5 @@
 # Colors
 
-Figma file: https://www.figma.com/design/qsvaDkP7lsiYk4KYtLxMlW/Foundation (page `color`, collection `color`).
-
 ## No values in these docs
 
 Hex codes are not written here, on purpose.
