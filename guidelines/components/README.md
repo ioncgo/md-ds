@@ -9,4 +9,3 @@ One file per component. Names match the Figma file.
 - [Chip](chip.md)
 - [Search](search.md)
 - [Tooltip](tooltip.md)
-- [Dialog](dialog.md)

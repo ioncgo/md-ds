@@ -8,7 +8,7 @@ Hex codes are not written here, on purpose.
 - **These docs are not published.** They are not a spec anyone ships from, so a value written here adds nothing and can only be wrong.
 - **Hex codes in docs end up in code.** If a value is visible here, someone will paste it instead of using the variable, and the change is then missed when the color is updated.
 
-Refer to colors by variable name, like `brand/orange/300`. To check a value, open the variable in Figma.
+Refer to colors by variable name, like `brand/orange/300`. To check a value, open the variable in Figma, or see [Primitives](primitives.md) for a full read-only reference list.
 
 ## Brand colors
 
@@ -28,7 +28,7 @@ Everything else supports the brand and never competes with it. Each has a full s
 
 | Color | Variables | Use for |
 | --- | --- | --- |
-| Red | `red/*` | Destructive actions and error text. See [Button](../components/button.md) and [Dialog](../components/dialog.md). |
+| Red | `red/*` | Destructive actions and error text. See [Button](../components/button.md) and [Dialog](../compositions/dialog.md). |
 | Yellow | `yellow/*` | Not assigned yet. |
 | Green | `green/*` | Not assigned yet. |
 | Teal | `teal/*` | Not assigned yet. |

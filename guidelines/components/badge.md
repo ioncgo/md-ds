@@ -31,7 +31,7 @@ Because `strong` is reserved for what needs action, don't reach for it to make a
 
 ## Open items
 
-- **No written rule for which color means what.** 7 colors exist, but nothing says, for example, that red is for errors or green is for success (unlike [Button](button.md) and [Dialog](dialog.md), which do say this for their variants).
+- **No written rule for which color means what.** 7 colors exist, but nothing says, for example, that red is for errors or green is for success (unlike [Button](button.md) and [Dialog](../compositions/dialog.md), which do say this for their variants).
 - **Two `strong` colors look like they don't pass contrast.** Checked white text against the `strong` fill colors in Figma:
   - `strong`/teal: ~2.5:1 — clearly fails, even for large text.
   - `strong`/purple: ~4:1 — fails 4.5:1 for normal text, badge text at these sizes isn't "large text" per [Accessibility](../foundation/accessibility.md).

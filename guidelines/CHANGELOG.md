@@ -4,6 +4,11 @@ One line per change. Newest first.
 
 ## v0.5 (draft)
 
+- Foundation: token structure. Three layers (primitives, semantic tokens, everything else) and the rule for which file consumes which. Found a few places Figma doesn't follow it yet.
+- Dialog: moved from `components/` to `compositions/`, alongside Table.
+- Foundation: icons. Corrected sourcing: used as a published Figma library, not copied in per icon. Dropped the per-icon status workflow.
+- Foundation: icons. Added Carbon's own usage guidelines (sizing, color/contrast, touch targets, alignment, states) as our default until we write our own.
+- Foundation: color primitives. Full hex reference for all 125 color steps, as an explicit exception to the no-hex-values rule in Colors.
 - Foundation: corner radius. The 8-step scale, round/square modes, and which components actually use which step.
 - Badge: variants (strong, subtle, outlined, ghost), hierarchy by visual weight, colors, sizes.
 - Foundation: spacing. 4px base grid, Tailwind alignment, token rules, the x0-x32 scale.

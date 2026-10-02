@@ -7,7 +7,7 @@ Rules for the Manager Dashboard UI. One file per rule set or component.
 - `foundation/` has the basics: colors, typography, spacing, icons, corner radius. All written, plus accessibility.
 - `general-rules/` has rules that apply across components. Empty for now.
 - `components/` has one file per component.
-- `compositions/` has rules for how components work together, like the [table](compositions/table.md).
+- `compositions/` has rules for how components work together, like the [table](compositions/table.md) and the [dialog](compositions/dialog.md).
 
 ## Naming
 
@@ -30,3 +30,5 @@ Use the same names as the Figma file. If a name in Figma is wrong, fix it in Fig
 - Icons: small UI icon source is not identified, no icon-to-name mapping, no size scale, no color/stroke rule. See `foundation/icons.md`.
 - Typography: `body/xxs` (11px) breaks the 12px minimum, no usage rules per style, no mono style. See `foundation/typography.md`.
 - Colors: no semantic tokens, no status colors, and variable scopes are not set. See `foundation/colors.md`.
+- Primitives: a hand-written snapshot of Figma values, not synced. Will go stale. See `foundation/primitives.md`.
+- Tokens: several component tokens skip the semantic layer and alias a primitive directly; a few semantic tokens look miswired (brand/brand-* resolve to blue, not brand colors; background/discovery-bold matches its non-bold pair). See `foundation/tokens.md`.
