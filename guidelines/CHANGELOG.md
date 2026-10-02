@@ -4,6 +4,7 @@ One line per change. Newest first.
 
 ## v0.5 (draft)
 
+- General rules: status and feedback. Five categories (success, warning, error, info, neutral) and the icon-or-label rule. Corrected: badges don't carry system status, only `badge-icon-only` does, and only paired with a text label.
 - Foundation: token structure. Three layers (primitives, semantic tokens, everything else) and the rule for which file consumes which. Found a few places Figma doesn't follow it yet.
 - Dialog: moved from `components/` to `compositions/`, alongside Table.
 - Foundation: icons. Corrected sourcing: used as a published Figma library, not copied in per icon. Dropped the per-icon status workflow.

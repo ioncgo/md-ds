@@ -2,4 +2,6 @@
 
 Rules that apply across components.
 
-None yet. Truncation and filtering menu rules live in [Table](../compositions/table.md).
+- [Status and feedback](status.md)
+
+Truncation and filtering menu rules live in [Table](../compositions/table.md).

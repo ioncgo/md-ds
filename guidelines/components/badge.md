@@ -21,6 +21,12 @@ The four variants are a visual-weight ladder, strongest to quietest: `strong` �
 
 Because `strong` is reserved for what needs action, don't reach for it to make a badge "stand out" visually. If every badge is `strong`, nothing is.
 
+## Status
+
+A badge is not how system status (success, warning, error, info, neutral) gets communicated — see [Status and feedback](../general-rules/status.md). `badge-text` and `badge-numeric` colors are general-purpose and looser than that: red can mean "critical" without being the formal Error status, green can mean "good" without being a declared Success. Don't read a badge's color as a status announcement.
+
+The one exception is `badge-icon-only`, which can stand in for a status icon — but only when it's paired with a text label next to it. On its own, it's not a status indicator either.
+
 ## Rules
 
 - Pick the variant by what the badge is for, not by what looks good. A settled, no-action status is never `strong`, even if `strong` happens to match the brand color better.
@@ -31,7 +37,7 @@ Because `strong` is reserved for what needs action, don't reach for it to make a
 
 ## Open items
 
-- **No written rule for which color means what.** 7 colors exist, but nothing says, for example, that red is for errors or green is for success (unlike [Button](button.md) and [Dialog](../compositions/dialog.md), which do say this for their variants).
+- **Teal and purple still have no assigned meaning**, even the looser badge kind of meaning the other five colors have. See [Colors](../foundation/colors.md).
 - **Two `strong` colors look like they don't pass contrast.** Checked white text against the `strong` fill colors in Figma:
   - `strong`/teal: ~2.5:1 — clearly fails, even for large text.
   - `strong`/purple: ~4:1 — fails 4.5:1 for normal text, badge text at these sizes isn't "large text" per [Accessibility](../foundation/accessibility.md).

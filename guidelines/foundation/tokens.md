@@ -18,6 +18,10 @@ This keeps the palette swappable from one place. If a primitive shade changes, t
 
 The Components file has a `theme` collection with 202 variables doing exactly this: semantic tokens like `text/*`, `foreground/*`, `background/*`, `border/*`, `brand/*`, plus component-scoped tokens like `component/badge/*`, `component/button/*`, `component/input/*`, `component/chip/*`, and more. This structure exists already; it just hadn't been written down anywhere until now.
 
+## Related
+
+[Status and feedback](../general-rules/status.md) names what each status color (success, warning, error, info, neutral) means, and maps onto the `text/success`, `text/warning`, `text/error`, `text/information` semantic tokens here.
+
 ## Open items
 
 Checked where the 202 `theme` variables actually point, to see if the rule above already holds. It mostly does, but not everywhere:

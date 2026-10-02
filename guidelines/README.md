@@ -25,7 +25,8 @@ Use the same names as the Figma file. If a name in Figma is wrong, fix it in Fig
 - Search: which size to use inside menus is not decided.
 - Dialog and drawer: drawer rules are not written yet.
 - Radius: no component is bound to a radius variable, so the scale can't actually be changed from one place yet. See `foundation/radius.md`.
-- Badge: no rule for which color means what. `strong`/teal and `strong`/purple look like they fail contrast with white text. See `components/badge.md`.
+- Badge: teal and purple still have no assigned meaning. `strong`/teal and `strong`/purple look like they fail contrast with white text. See `components/badge.md`.
+- Status: no fixed icon chosen per category yet, no semantic token for "neutral" status, and purple (`discovery`) may or may not be a status category. See `general-rules/status.md`.
 - Spacing: no page/layout spacing scale. Table density is documented in `compositions/table.md`, not here. See `foundation/spacing.md`.
 - Icons: small UI icon source is not identified, no icon-to-name mapping, no size scale, no color/stroke rule. See `foundation/icons.md`.
 - Typography: `body/xxs` (11px) breaks the 12px minimum, no usage rules per style, no mono style. See `foundation/typography.md`.

@@ -29,14 +29,14 @@ Everything else supports the brand and never competes with it. Each has a full s
 | Color | Variables | Use for |
 | --- | --- | --- |
 | Red | `red/*` | Destructive actions and error text. See [Button](../components/button.md) and [Dialog](../compositions/dialog.md). |
-| Yellow | `yellow/*` | Not assigned yet. |
-| Green | `green/*` | Not assigned yet. |
+| Yellow | `yellow/*` | Warning status. See [Status and feedback](../general-rules/status.md). |
+| Green | `green/*` | Success status. See [Status and feedback](../general-rules/status.md). |
 | Teal | `teal/*` | Not assigned yet. |
-| Blue | `blue/*` | Links (`blue/600`, hover `blue/800`) and the focus ring. |
-| Purple | `purple/*` | Not assigned yet. |
+| Blue | `blue/*` | Links (`blue/600`, hover `blue/800`), the focus ring, and info status. See [Status and feedback](../general-rules/status.md). |
+| Purple | `purple/*` | Not assigned yet — possibly "discovery", see [Status and feedback](../general-rules/status.md). |
 | Neutral | `neutral/*` | Greys. Not assigned yet. Scale is `25` to `950`. |
 
-Only red and blue have a use written down so far. The rest are in the file and ready, but their jobs are not decided. See open items.
+Red, yellow, green and blue now have a use written down — see [Status and feedback](../general-rules/status.md) for the status system they're part of. Teal and purple are still open.
 
 ## Other variables
 
@@ -59,4 +59,4 @@ Only red and blue have a use written down so far. The rest are in the file and r
 - Every color variable has the scope set to "All scopes". They show up in every color picker, including where they shouldn't (a text color as a fill).
 - `brand/orange/50` is missing the "Generated from Tailwind Color System" description the rest have, so it may have been added by hand. `brand/deep navy/50` has a cyan tint compared to the rest of its scale. Check that both were meant.
 - No dark mode. The collection has a single mode.
-- Yellow, green, teal and purple have no assigned use yet. Status colors (warning, success, error) are not defined.
+- Teal and purple have no assigned use yet (purple may be "discovery" — see [Status and feedback](../general-rules/status.md)).
