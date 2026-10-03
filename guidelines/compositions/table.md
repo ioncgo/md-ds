@@ -11,10 +11,28 @@ Only the Order ID column (first column) uses middle truncation. No other column 
 - **Example:** `ORD-2024-00481-EU-WH3` shows as `ORD-202…1-EU-WH3`.
 - **Why the middle:** many IDs start the same way, so the end is what tells rows apart.
 - **Ellipsis:** use the single `…` character, not three dots.
-- **Full value:** show it in a tooltip on hover and on keyboard focus. Add a copy button for the full ID.
+- **Full value:** show it in a tooltip on hover and on keyboard focus. See [Row hover](#row-hover) for the copy button that comes with it.
 - **Screen readers:** read the full ID, not the shortened one.
 - **Font:** monospace, so shortened IDs line up.
 - **Data:** search, sort, filter, and export always use the full ID.
+
+## Row hover
+
+Hovering a row does two separate things, both in the Order ID column. Neither is hover-only — both need a keyboard equivalent.
+
+**View details**
+
+- The "view details" icon has its own spot, separate from the expand/collapse chevron. It doesn't replace the chevron, and the chevron doesn't move to make room for it.
+- It's only visible while the row is hovered. Move off the row, and it's gone again.
+- Clicking it opens the row's details.
+- This needs a keyboard path too: tabbing to the row (or to the icon itself) should make the same icon reachable and usable, not only on mouse hover.
+- Works the same whether the row has children or not. A leaf row has no chevron, but still has the view-details spot.
+
+**Copy the ID**
+
+- Only when the ID is truncated: hovering or focusing it shows the tooltip from [Order ID truncation](#order-id-truncation) and a copy button together, the button sitting after the value.
+- Clicking the button copies the full ID, never the shortened one.
+- An ID short enough to show in full doesn't get a copy button. There's nothing truncated to copy out.
 
 ## Other text columns and badges
 

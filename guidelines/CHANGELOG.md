@@ -4,6 +4,7 @@ One line per change. Newest first.
 
 ## v0.5 (draft)
 
+- Table: row hover. View-details icon in its own spot (not swapping the chevron), visible on hover; copy button for the Order ID appears alongside its tooltip when truncated.
 - General rules: status and feedback. Five categories (success, warning, error, info, neutral) and the icon-or-label rule. Corrected: badges don't carry system status, only `badge-icon-only` does, and only paired with a text label.
 - Foundation: token structure. Three layers (primitives, semantic tokens, everything else) and the rule for which file consumes which. Found a few places Figma doesn't follow it yet.
 - Dialog: moved from `components/` to `compositions/`, alongside Table.
